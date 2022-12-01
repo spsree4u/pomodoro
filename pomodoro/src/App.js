@@ -12,7 +12,7 @@ function App() {
     <div className="App">
       <div>
         <h1>Pomodoro</h1>
-        <button className="button" onClick={handleClick}>
+        <button className="controlButton" onClick={handleClick}>
           { active ? "Stop" : "Start"}
         </button>
       </div>
